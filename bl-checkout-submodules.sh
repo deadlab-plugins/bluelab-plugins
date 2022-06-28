@@ -8,8 +8,8 @@
 git pull --recurse-submodules
 
 cd iPlug2
-git pull origin master
-git checkout master
+git pull origin bluelab
+git checkout bluelab
 cd ..
 
 cd Libs

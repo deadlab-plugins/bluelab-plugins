@@ -15,7 +15,7 @@ git clone --recursive https://github.com/deadlab-plugins/bluelab-plugins.git
 ## Building on Linux
 - call bl-checkout-submodules.sh
 - call bl-replace-nanovg.sh
-- cd buildsystem/linux and call make-dist-linux.sh
+- cd BuildSystem/linux and call make-dist-linux.sh
 (change plugins-list.sh to select only some plugins to build)
 
 ![bluelab plugins](https://github.com/deadlab-plugins/bluelab-plugins/blob/master/Images/bluelab-plugins.png)
