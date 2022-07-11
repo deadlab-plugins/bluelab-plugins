@@ -969,7 +969,7 @@ ReverbDepth::UnserializeState(const IByteChunk &pChunk, int startPos)
   
     //IMutexLock lock(this);
   
-    int res = IPluginBase::UnserializeParams(pChunk, startPos);
+    int res = iplug::IPluginBase::UnserializeParams(pChunk, startPos);
 
     if (mReverbViewer != NULL)
         mReverbViewer->Update();

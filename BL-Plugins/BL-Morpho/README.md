@@ -1,2 +1,4 @@
 # BL-Morpho
-A basic volume control effect plug-in with IGraphics GUI
+A project of a synth based on the SAS (Structured Additive Synthesis) model.
+
+Not finished...

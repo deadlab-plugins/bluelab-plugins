@@ -3,14 +3,12 @@
 cd iPlug2/Examples
 
 ln -s ../../BL-Plugins/BL-Air ./BL-Air
-
 ln -s ../../BL-Plugins/BL-AutoGain ./BL-AutoGain
 ln -s ../../BL-Plugins/BL-Sine ./BL-Sine
 ln -s ../../BL-Plugins/BL-Bat ./BL-Bat
 ln -s ../../BL-Plugins/BL-LoFi ./BL-LoFi
 ln -s ../../BL-Plugins/BL-SoundMetaViewer ./BL-SoundMetaViewer
 ln -s ../../BL-Plugins/BL-Chroma ./BL-Chroma
-ln -s ../../BL-Plugins/BL-Morpho ./BL-Morpho
 ln -s ../../BL-Plugins/BL-Spatializer ./BL-Spatializer
 ln -s ../../BL-Plugins/BL-Denoiser ./BL-Denoiser
 ln -s ../../BL-Plugins/BL-NoiseRemover ./BL-NoiseRemover
@@ -44,4 +42,13 @@ ln -s ../../BL-Plugins/BL-SASViewer ./BL-SASViewer
 ln -s ../../BL-Plugins/BL-Infra ./BL-Infra
 ln -s ../../BL-Plugins/BL-Saturate ./BL-Saturate
 
-cd ../..
+# unfinished or experimental plugins
+ln -s ../../BL-Plugins/BL-SoundMetaViewer ./BL-SoundMetaViewer
+ln -s ../../BL-Plugins/BL-Morpho ./BL-Morpho
+ln -s ../../BL-Plugins/BL-Bat ./BL-Bat
+ln -s ../../BL-Plugins/BL-DUET ./BL-DUET
+
+cd ..
+ln -s ../Libs ./BL-Dependencies
+
+cd ..

@@ -28,5 +28,14 @@ PLUGS="BL-Air \
        BL-SpectralDiff \
        BL-StereoPan \
        BL-StereoWidth \
-       BL-Wav3s"
-
+       BL-Wav3s \
+\
+       BL-SoundMetaViewer \
+       BL-Morpho \
+       BL-Bat \
+       BL-DUET \
+       BL-StereoDeReverb \
+       BL-Reverb \
+       BL-ReverbDepth \
+       BL-SASViewer \
+       BL-OnsetDetect"

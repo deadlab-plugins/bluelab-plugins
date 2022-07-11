@@ -1,3 +1,3 @@
 #! /bin/sh
 
-PLUGS_PATH="/home/niko/Documents/Dev/plugs-dev/bluelab/iPlug2/Examples"
+PLUGS_PATH="/home/nibbler/dev/github/bluelab-github-build/iPlug2/Examples"

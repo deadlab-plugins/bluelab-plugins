@@ -375,7 +375,7 @@ EQHack::InitParams()
     //GetParam(kMonitor)->InitInt("Monitor", defaultMonitor, 0, 1);
     GetParam(kMonitor)->InitEnum("Monitor", defaultMonitor, 2,
                                  "", IParam::kFlagsNone, "",
-                                 "Off", "On"););
+                                 "Off", "On");
 }
 
 void
